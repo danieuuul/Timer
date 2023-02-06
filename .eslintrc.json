@@ -1,0 +1,16 @@
+{
+  "extends": ["@rocketseat/eslint-config/react", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "rules": {
+    "no-unused-vars": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "none",
+        "semi": false,
+        "singleQuote": true
+      }
+    ],
+    "jsx-quotes": ["error", "prefer-double"]
+  }
+}
